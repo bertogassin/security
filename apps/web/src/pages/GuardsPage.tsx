@@ -59,6 +59,10 @@ export function GuardsPage() {
 
   return (
     <div class="page px-4 space-y-5 fade-in">
+      <div class="rounded-[var(--radius-xl)] border border-[var(--color-warning)]/40 bg-[var(--color-warning)]/10 px-4 py-3 text-center shadow-[var(--shadow-sm)]">
+        <p class="text-xs font-bold tracking-[0.22em] text-[var(--color-warning)]">ПРОВЕРКА</p>
+      </div>
+
       <header
         class="rounded-[var(--radius-xl)] p-5 shadow-[var(--shadow-lg)] flex items-start gap-4 min-h-[100px]"
         style={{
