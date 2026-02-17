@@ -1,0 +1,14 @@
+{
+  "name": "Security — Охранник сразу",
+  "short_name": "Security",
+  "description": "Онлайн охранник сразу находится",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#F8F9FA",
+  "theme_color": "#2196F3",
+  "lang": "ru",
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

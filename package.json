@@ -1,0 +1,20 @@
+{
+  "name": "security",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Онлайн охранник сразу находится / Online guard available now",
+  "scripts": {
+    "dev:web": "pnpm --filter web dev",
+    "build:web": "pnpm --filter web build",
+    "dev:api": "cargo run -p security-backend",
+    "build:android": "pnpm run build:web && npx cap sync android"
+  },
+  "packageManager": "pnpm@8",
+  "dependencies": {
+    "@capacitor/android": "^8.1.0",
+    "@capacitor/core": "^8.1.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.1.0"
+  }
+}
